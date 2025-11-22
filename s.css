@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+
+/* Explique as linhas de código abaixo em pt-br */
+
+body{
+  font-family: Arial, sans-serif; /* fonte padrão do texto */
+  background-color: #ffffff; /* cor de fundo da página */
+  color: #4a6ad4; /* cor do texto */
+  line-height: 1.6;  /* espaçamento entre linhas */
+  padding: 20px; /* espaçamento interno da página */
+  
+}
+header{
+  background-color: #35424a; /* cor de fundo do cabeçalho */
+  color: #ffffff; /* cor do texto do cabeçalho */
+  padding: 10px 0; /* espaçamento interno do cabeçalho */
+  text-align: center; /* alinhamento do texto ao centro */
+}
+
+ header ul li hover {
+color: rgb(66, 66, 255);
+}
+
+h2{
+  color: #8cdbe0; /* cor do título h2 */
+  margin-bottom: 10px; /* espaçamento abaixo do título */
+
+}
+
+nav ul li{
+  display: inline; /* exibe os itens da lista em linha */
+  margin-right: 15px; /* espaçamento à direita dos itens */
+
+}
+
+nav ul li a{
+  color: #ffffff; /* cor dos links */
+  text-decoration: none; /* remove o sublinhado dos links */
+  font-weight: bold; /* deixa o texto em negrito */
+}
+
+.container{
+ display: flex; /* usa o layout flexível */
+ flex-wrap: wrap; /* permite que os itens quebrem linha */
+ gap: 24px; /* espaçamento entre os itens */
+ justify-content: center; /* centraliza os itens */
+ padding: 15px; /* espaçamento interno do container */ 
+ display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin: 30px;
+}
+
+ .card{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+
+  .card img {
+    width: 100%;  /* Largura total da imagem */
+    height: 180px; /* Altura fixa para a imagem */
+    object-fit: cover; /* Cobre toda a área da imagem */
+    display: block; /* Remove espaços em branco abaixo da imagem */
+  }
+  
+ .card p{
+    font-weight: bold; /* deixa o texto do parágrafo em negrito */
+    font-size: 0.50cm; /* tamanho da fonte do parágrafo */
+    padding: 18px 12px 18px 12px; /* espaçamento interno do parágrafo */
+    margin: 0; /* remove a margem do parágrafo */
+    text-align: justify; /* justifica o texto do parágrafo */
+ }
+
+ footer p{
+    text-align: center; /* alinha o texto do rodapé ao centro */
+    padding: 10px; /* espaçamento interno do rodapé */
+    background-color: #35424a; /* cor de fundo do rodapé */
+    color: #ffffff; /* cor do texto do rodapé */
+    position: fixed; /* fixa o rodapé na parte inferior da página */
+    bottom: 0; /* posiciona o rodapé na parte inferior */
+    width: 100%; /* largura do rodapé ocupa toda a página */ ;
+ }
+
+ .fundo{
+    background-color: #3936f5; /* cor de fundo da seção */
+    padding: 20px; /* espaçamento interno da seção */
+    margin-top: 20px; /* espaçamento acima da seção */
+    border-radius: 10px; /* bordas arredondadas da seção */
+ }
+
+ 
+  
+ 
+
+
+
